@@ -1,5 +1,6 @@
 // Base API configuration - all requests go through here
-const BASE_URL = 'http://localhost:8080/api';
+// const BASE_URL = 'http://localhost:8080/api';
+const BASE_FRONT_URL = 'https://task-manage-backend-s2u3.onrender.com';
 
 const getHeaders = () => {
   const token = localStorage.getItem('token');
